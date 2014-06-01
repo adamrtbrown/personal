@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script type="text/x-handlebars">
+  <script type="text/x-handlebars" id="adamtest">
     <h2>Welcome to Ember.js</h2>
 
     {{outlet}}
@@ -25,6 +25,7 @@
   <script src="js/libs/handlebars-1.1.2.js"></script>
   <script src="js/libs/ember-1.5.1.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/router.js"></script>
   <!-- to activate the test runner, add the "?test" query string parameter -->
   <script src="tests/runner.js"></script>
 </body>
