@@ -1,4 +1,49 @@
 /* Put your CSS here */
+body {
+    background:white;
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+header {
+    position:relative;
+    padding:10px;
+    background:#2255BB;
+    height:100px;
+}
+header .big {
+    font-size:72px;
+    color:#FFF;
+    text-shadow: 2px 2px #222;
+}
+.users {
+    color:white;
+    display:inline-block;
+    padding:20px;
+    font-style:italic;
+    position:absolute;
+    right:0px;
+}
+.box {
+    display:inline-block;
+    font-style:normal;
+    padding:3px 8px;
+    text-align:center;
+    border:2px solid #AAA;
+    border-radius:5px;
+    font-weight:bold;
+    border-right-color:#EEE;
+    border-top-color:#EEE;
+}
 .ember-application {
-    margin: 20px;
+    margin: 0px;
+}
+nav {
+    position:absolute;
+    top:120px;
+    bottom:0px;
+    width:250px;
+    
+    background:#2255AA;
 }

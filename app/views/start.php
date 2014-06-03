@@ -7,8 +7,17 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script type="text/x-handlebars" id="adamtest">
-    <h2>Welcome to Ember.js</h2>
+    <script type="text/x-handlebars" id="test">
+    
+    <header>
+        <span class='big'>Adam RT Brown</span>
+        <span class='users'>Users viewing right now: <span class='box'>1</span></span>
+    </header>
+    
+    <nav>hi</nav>
+    <section></section>
+  
+
 
     {{outlet}}
   </script>
